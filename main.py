@@ -19,7 +19,7 @@ def play():
 
 def is_win(player, opponent):
     #Return true if the player beats the oponent
-    #Winning conditions r > s, s > p, p > r
+    #Winning conditions r > sc, r > l, l > sp, l > p, sp > r, sp > sc, sc > p, sc > l, p > r, p > sp
     if (player == 'rock' and opponent == 'scissors') or (player == 'rock' and opponent == 'lizard') or (player == 'lizard' and opponent == 'spock') or (player == 'lizard' and opponent == 'paper') or (player == 'spock' and opponent == 'rock') or (player == 'spock' and opponent == 'scissors') or (player == 'scissors' and opponent == 'paper') or (player == 'scissors' and opponent == 'lizard') or (player == 'paper' and opponent == 'rock') or (player == 'paper' and opponent == 'spock'):
         return True
     return False
