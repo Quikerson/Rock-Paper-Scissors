@@ -36,7 +36,7 @@ def play_best_of(n):
         if result == 0:
             print("----------------------")
             print('It is a tie, You and the computer have both chosen {}. \n'.format(user))
-            print(f"Player: {player_wins}, Computer: {computer_wins}")
+            print(f"Player: {player_wins}, Computer: {computer_wins}\n")
             if player_wins < computer_wins:
                 print("Don't give up, you can do it")
             elif player_wins > computer_wins:
@@ -50,7 +50,7 @@ def play_best_of(n):
             player_wins += 1
             print("----------------------")
             print('You chose {}, and the computer chose {}, You won.\n'.format(user, computer))
-            print(f"Player: {player_wins}, Computer: {computer_wins}")
+            print(f"Player: {player_wins}, Computer: {computer_wins}\n")
             if player_wins < computer_wins:
                 print("Don't give up, you can do it")
             elif player_wins > computer_wins:
@@ -63,7 +63,7 @@ def play_best_of(n):
             computer_wins += 1
             print("----------------------")
             print('You chose {}, and the computer chose {}, You lost :(\n'.format(user, computer))
-            print(f"Player: {player_wins}, Computer: {computer_wins}")
+            print(f"Player: {player_wins}, Computer: {computer_wins}\n")
             if player_wins < computer_wins:
                 print("Don't give up, you can do it")
             elif player_wins > computer_wins:
